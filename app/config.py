@@ -1,4 +1,3 @@
-from multiprocessing.reduction import steal_handle
 from pydantic import BaseSettings
 
 class Settings(BaseSettings):
