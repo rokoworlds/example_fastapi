@@ -29,3 +29,9 @@ app.include_router(post.router)
 app.include_router(user.router)
 app.include_router(auth.router)
 app.include_router(vote.router)
+
+
+
+@app.get("/")
+def root():
+    return {"message": "Hello darling! Send you a kiss and wish you a good evening! ❤️ Y. Roman"}
